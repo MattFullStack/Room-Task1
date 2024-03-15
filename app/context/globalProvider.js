@@ -47,7 +47,7 @@ export const GlobalProvider = ({ children }) => {
 
       setIsLoading(false);
     } catch (error) {
-      console.log(error);
+      
     }
   };
 
@@ -58,7 +58,7 @@ export const GlobalProvider = ({ children }) => {
 
       allTasks();
     } catch (error) {
-      console.log(error);
+      
       toast.error("Something went wrong");
     }
   };
@@ -71,7 +71,7 @@ export const GlobalProvider = ({ children }) => {
 
       allTasks();
     } catch (error) {
-      console.log(error);
+      
       toast.error("Something went wrong");
     }
   };
